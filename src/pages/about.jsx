@@ -18,7 +18,7 @@ const about = () => {
                 <img src={Rectangle} alt="" className='rectangleabout' />
             </div>
             <div className='aboutText'>
-                <h1>Our Dream is <br/> Global Learning <br/> Transformation</h1>
+                <h1>Our Dream is <br/> Global Learning <br/> Transformati</h1>
                 <p>Welcome to UniBeta  -Revolutionizing University Education. </p>
                 <p>At Unibeta, we understand the challenges that university students face in balancing academic demands, sourcing quality materials, and maintaining a healthy school-life balance. 
                     Born out of the constant feedback from university students about the stressful nature of their academic journey, UniBeta is designed to bring all essential academic and extracurricular
