@@ -1,3 +1,1812 @@
+<<<<<<< HEAD
+
+
+.navbar__header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px;
+}
+
+.navbar__header a{
+    margin-left: 20px;
+    color: #333;
+}
+
+.navbar__header .service_link{
+    margin-right: 10px;
+}
+.navbar__header button{
+    margin-left: 10px;
+
+}
+
+.navbar__header .waitlist{
+    border: 2px solid red;
+    padding: 10px;
+    color: red;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.navbar__header .sell{
+    background: red;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border: red;
+    border-radius:10px;
+}
+.navbar__header img{
+    width: 100px;
+}
+
+/* end of Navbar */
+
+
+/* start of footer */
+
+.footer{
+    padding-top: 70px;
+    margin-top: 100px;
+    background: rgb(250, 249, 249);
+    border-radius: 30px;
+}
+.footer_wrap{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer_wrap a{
+    display: block;
+    margin-bottom: 20px;
+    color: grey;
+    font-size: 14px;
+}
+.footer_wrap h3{
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.footer_wrap .reachout p{
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: grey;
+}
+.footer_wrap .rec16{
+    width: 120px;
+}
+.footer_wrap .rec17{
+    width: 120px;
+}
+
+.footerdown{
+    text-align: center;
+}
+
+.footer .bottom-boxes{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footerdown .footericons{
+    display: flex;
+    justify-content: center;
+    margin-right: 55px;
+    
+}
+.footerdown h2{
+    font-size: 18px;
+}
+.footerdown img{
+    margin-left: 50px;
+}
+
+.footer1{
+    width: 500px;
+}
+
+/* end of footer warp */
+.section1{
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+
+}
+.section1 .rec09{
+    width: 550px;
+}
+.section1 .unibeta{
+    width: 500px;
+}
+.section1 .iphone2{
+    border: 5px solid black;
+    border-radius: 30px;
+    height: 380px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    color: black;
+    margin-left: -70px;
+    background: white;
+    width: 180px;
+ 
+}
+.section1 .iphone1img{
+    height: 430px;
+}
+.section1 .iphone2img{
+    height: 350px;
+}
+
+.section1iphones{
+    display: flex;
+    
+   
+}
+.section1iphones .iphonepointer{
+    background: black;
+    width: 70px;
+    height: 20px;
+    text-align: center;
+    border-radius: 50px;
+
+}
+.section1 h2{
+   font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    padding-right: 200px;
+}
+.section1 p{
+    font-size: 25px;
+    padding-right: 150px;
+
+}
+
+.section2 .ned{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.section2 .we{
+    text-align: center;
+}
+.section2{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 40px 20px;
+    padding-bottom: 100px;
+}
+.section2 .rectangle{
+    width: 500px;
+}   
+
+.section2 h1{
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.section2 .emailinput{
+    border: 1px solid red;
+    padding: 9px 10px;
+    width: 350px;
+    outline: none;
+    border-radius: 2px;
+}
+.section2 button{
+    background-color: red;
+    color: white;
+    padding: 9px 14px;
+    border: 1px solid red;
+    border-radius:2px;
+    margin-left: 5px;
+}
+
+.section2 .join h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.section2 .elevate{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    
+    background: #d6dafe;
+   padding-bottom: 10px;
+    text-align: center;
+    width: 650px;
+    margin-left: 40px;
+    border-left: 7px solid blue;
+    margin-top: 50px;
+   
+}
+.section2 .join{
+    margin-top: 60px;
+}
+.section2 .join .we{
+    font-size: 25px;
+
+}
+
+.section2 .elevate img{
+    width: 30px;
+    height: 30px;
+
+}
+.section3{
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 40px;
+}
+.section3 h1{
+    font-size:50px;
+    font-weight: bold;
+}
+.section3 p{
+    font-size: 25px;
+}
+
+.section4{
+    background-color: black;
+    color: white;
+    padding: 80px 150px;
+    margin-top:50px;
+}
+.section4 h1{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+.section4 .png-container{
+    display: flex;
+}
+.section4 .png-container p{
+    margin-left: 10px;
+    font-size: 20px;
+}
+.section4 .png-container img{
+    width: 30px;
+    height: 30px;
+}
+
+.section4 .three__rows{
+    display: flex;
+    justify-content: space-around;
+}
+.section5 img{
+    width: 250px;
+}
+.section5{
+    padding: 50px;
+}
+
+.section5 h1{
+    font-size: 50px;
+    color: red;
+    font-weight: bold;
+    margin-left: 40px;
+}
+.section5 .imageflex5{
+    display: flex;
+    justify-content:space-around;
+    text-align: center;
+    padding: 30px 30px 0px 10px;
+}
+.section5 .imageflex5 div{
+    margin-left: 20px;
+}
+.section5 div > .content{
+    display: none;
+    background: linear-gradient(#9E9E9E, #072266);
+    color: white;
+    padding:10px;
+    width: 250px;
+    margin-top: -20px;
+    padding-top: 30px;
+    border-radius:20px;
+    margin-left: -1px;
+    text-align: justify;
+}
+.section5 div:hover > .content {
+    display: block;
+  }
+
+  .section5 .content .head{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.section6 .content{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.section6 .content h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.section6 .content h3{
+    font-size: 37px;
+}
+.section6 .content p{
+    font-size: 30px;
+}
+
+
+.section6 .imageflex{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+  
+}
+.section6 .imageflex div{
+  
+    width: 100%;
+}
+.section6 .imageflex .rec06{
+    width: 68rem;
+    height: 600px;
+}
+.section6 .imageflex .you1{
+    width: 70rem;
+    height: 600px;
+    border-radius: 30px;
+}
+.section6 .imageflex .you2{
+    width: 70rem;
+    height: 600px;
+    border-radius: 30px;
+}
+.section6 .imageflex .you3{
+    width: 70rem;
+    height: 600px;
+    border-radius: 30px;
+}
+.section6 .imageflex .you4{
+    width: 70rem;
+    height: 600px;
+    border-radius: 30px;
+}
+.section6 .imageflex .rec07{
+    width: 22rem;
+    height: 600px;
+}
+
+.section7 .red{
+    background: #FF0000;
+    width: 330px;
+    border-radius: 20px;
+    padding: 25px 15px 100px 15px;
+    color: #ffffff;
+}
+.section7 img{
+    width: 20px;
+    height: 30px;
+}
+.section7 h3{
+    font-size: 20px;
+}
+.section7 p{
+    font-size: 15px;
+    text-align: justify;
+}
+.section7 .red .redone{
+    display: flex;
+}
+
+.redcontainer{
+    display: flex;
+    justify-content: space-around;
+}
+.section7 .redone h3{
+    margin-left: 20px;
+}
+
+.section7 .blue{
+    background-color: #001B7A;
+}
+.section7 .imagecircle{
+    background-color: white;
+    width: 70px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.section7 .orange{
+    background-color: #F38300;
+}
+.section7 .purple{
+    background-color: #90008B;
+}
+.section7 h1{
+    text-align: center;
+    margin-bottom: 100px;
+    font-size: 50px;
+    font-weight: bold;
+}
+.section7{
+    background: rgb(23, 134, 178);
+    padding: 50px 50px 100px 50px;
+    margin-top: 100px;
+    color: #ffffff;
+}
+
+.section8 h1{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.section8 p{
+    margin-bottom: 20px;
+    padding-left: 300px;
+    padding-right: 300px;
+    font-size: 25px;
+}
+.section8{
+    text-align: center;
+    padding: 100px;
+}
+
+
+.section9 .rec09{
+        width: 600px;
+        height: 600px;
+    
+}
+
+.section9{
+    text-align: justify;
+}
+
+.section9 h3{
+    font-weight:bold;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.section9 p{
+    font-size: 25px;
+    margin-bottom: 20px;
+   
+}
+.section9 .emailinput{
+    width: 500px;
+    padding: 20px 10px;
+    border-radius: 5px;
+}
+.section9 button{
+    padding: 20px 10px;
+    border-radius: 5px;
+}
+.section9 .unibeta{
+    width: 500px;
+}
+
+.section10 .materials{
+    display: flex;
+    text-align: justify;
+    font-size: 9px;
+}
+.section10 .materials .content{
+    margin-top: 100px;
+    width: 50%;
+    padding: 0px 20px 0px 20px;
+    
+}
+
+.section10 .materials .content h3{
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 50px;
+   
+}
+.section10  p{
+    font-size: 15px;
+    word-spacing: -1px;
+    text-align: justify;
+
+}
+.section10{
+    display: flex;
+    justify-content:space-around;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 50px;
+}
+.section10 img{
+   
+}
+.section10 .rec10{
+    width: 300px;
+    
+}
+.section11{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+  
+}
+
+.section11 .rec12{
+    width: 50rem;
+    height: 30rem;
+}
+.section11 h1{
+    font-size: 70px;
+}
+.section11 img{
+    width: 100%;
+}
+.section11 .marketstylered{
+    color: red;
+}
+.section11 .startselling{
+    background: red;
+    border: 1px solid red;
+    color: white;
+    padding: 10px;
+    border-radius: 7px;
+}
+.section11 .shopnow{
+    border: 1px solid red;
+    color: red;
+    padding: 10px;
+    border-radius: 7px;
+    margin-left: 10px;
+}
+
+
+.section12{
+    padding-top: 100px;
+}
+.section12 .rec13{
+    width: 100%;
+    height: 200px;
+}
+
+.section13 .rec14{
+    width: 400px;
+}
+
+.section13 .founder{
+    display: flex;
+    flex-direction: column;
+}
+.section13 .mission{
+    margin-left: 60px;
+    padding-right: 200px;
+}
+.section13 .logosfounder{
+    display: flex;
+}
+.section13 .founder .logosfounder img{
+    width: 200px;
+}
+
+.section13{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 200px;
+    padding-top: 100px;
+}
+
+.section13 .the{
+    width: 50px;
+}
+.section13 .next{
+    width: 50px;
+}
+.section13 .founder{
+  
+    padding-right: 200px;
+   
+}
+.section13 .founder p{
+  
+    text-align: justify;
+    margin-top: 20px;
+    font-size: 17.2px;
+}
+
+.section13 .rec15{
+    width: 60px;
+    padding-left: 50px;
+}
+.section13 .rec14{
+    width: 500px;
+    height: 500px;
+    object-fit: contain;
+}
+.section13 .logosfounder img{
+    width: 150px;
+    height: 150px;
+    margin-left: 50px;
+}
+
+
+
+/* ABOUTUS PAGE */
+
+
+.section1about{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.section1about div{
+    margin-left: 50px;
+}
+
+.section1about .rectangleabout{
+    width: 550px;
+}
+
+.section1about h1{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.section1about p{
+    font-size: 17px;
+    text-align: justify;
+   
+}
+.section1about .aboutText{
+    width: 600px;
+}
+.section2about{
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    background: #0B92DF;
+    padding: 50px 0px;
+    margin-top: 100px;
+}
+.section2about img{
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    text-align: center;
+    
+}
+
+.section2about .paystack{
+    width: 200px;
+    height: 200px;
+}
+.section2about .meet{
+    width: 200px;
+    height: 200px;
+}
+
+
+.section2about h3{
+    margin-bottom: 20px;
+}
+
+.section2imagesabout{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+/* begining of join waitlist */
+
+.section1waitlist{
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+.section1waitlist .bg-random{
+    background: url(./assets/rectangle1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 500px;
+    height: 600px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+}
+.section1waitlist .bg-random-inside{
+    background: url(./assets/rectangle2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 300px;
+    height: 400px;
+    color: white;
+    padding: 40px 40px 0px 20px ;
+    text-align: justify;
+    border-radius: 30px;
+}
+.section1waitlist p{
+    font-size:8px;
+    color: lightgrey;
+    margin-bottom: 115px;
+}
+.section1waitlist .marketdiv{
+    background: url(./assets/rectangle3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 130px;
+    font-size: 12px;
+    padding: 5px 0px 5px 5px;
+    border-radius: 10px;
+}
+.section1waitlist .border{
+    border: 1px solid lightgrey;
+    width: 50px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.section1waitlist h3{
+   font-weight: normal;
+   margin-bottom: 20px;
+   font-size: 16.8px;
+}
+.section1waitlist a{
+   text-decoration: underline;
+   color: #fff;
+   font-size: 16px;
+}
+
+.formdiv{
+    
+    margin-left: -50px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 0px 10px 5px lightgray;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+}
+
+.formdiv .username{
+    width: 300px;
+    padding: 10px 0px 10px 7px;
+    color: grey;
+    border: 1px solid lightgrey;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    outline: none;
+}
+.formdiv .password{
+    width: 300px;
+    padding: 10px 0px 10px 7px;
+    color: grey;
+    border: 1px solid lightgrey;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    outline: none;
+}
+.formdiv .signup{
+    width: 300px;
+    border-radius: 5px;
+    background: #ff0000;
+    color: #fff;
+    padding: 13px 0px;
+    border: none;
+    outline: none;
+    font-weight: 600;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.formdiv .google{
+    width: 300px;
+    border-radius: 5px;
+    color: #333;
+    padding: 13px 0px;
+    border: 1px solid #ff0000;
+    outline: none;
+    font-weight: 600;
+    background: transparent;
+}
+.formdiv .male{
+    margin-right: 30px;
+    margin-left: 5px; 
+}
+
+
+.section1waitlist .formdiv form .username, .password{
+    display: block;
+}
+
+.formdiv img{
+    width: 200px;
+    margin-bottom: 50px;
+}
+.section13 .bottom-boxes{
+    display: flex;
+}
+
+@media screen and (max-width:70em){
+    .navbar__header{
+        padding: 10px 0px;
+        width: 100%;
+    }
+    .navbar__header nav{
+        margin-right: 30px;
+    }
+    .navbar__header .uni{
+        padding-left: 20px;
+    }
+    
+    .section1 .rec09{
+        width: 300px;
+        height: 300px;
+    }
+    .section1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 50px 10px;
+        width: 100%;
+    }
+    .section1 .unibeta{
+        width: 150px;
+    }
+
+    .section1 .section1iphones{
+        padding: 0px;
+    }
+    .section1 h2{
+        padding: 0 50px 0px 0px;
+    }
+    .section1 p{
+        padding: 0;
+        padding: 0 50px 0px 0px;
+    }
+    .section1 .content{
+        width: 450px;
+        padding: 0;
+    }
+    .section2{
+
+    }
+    .section2 .rectangle{
+        width:250px;
+    }
+    .section2 .join h1{
+       font-size: 20px;
+    }
+    .section2 .join .we{
+        font-size: 9px;
+    }   
+    .section2 .elevate{
+        width: 320px;
+        padding: 2px 0;
+    }
+    .section3 h1{
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+    .section3 p{
+        font-size: 13px;
+    }
+    .section4 .three__rows{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .section4 .three__rows .png-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 20px;
+    }
+    .section4 .three__rows .png-container p{
+        font-size: 12px;
+    }
+    .section4{
+        background-color: black;
+        color: white;
+        padding: 80px 20px;
+        margin-top:50px;
+    }
+    .section5{
+        padding: 50px 0px;
+        
+    }
+    .section5 h1{
+        font-size: 30px;
+        color: red;
+        font-weight: 600;
+        margin-left: 70px;
+    }
+    .section5 .imageflex5{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        place-items: center;
+        align-items: center;
+        text-align: center;
+        padding: 30px 10px;
+    }
+    .section5 .imageflex5 div{
+        width: 150px;
+        border-radius: 20px;
+    }
+    .section6{
+        padding: 0 0px 0px 15px;
+    }
+    .section6 .imageflex .rec06{
+        width: 500px;
+        height: 400px;
+    }
+    .section6 .imageflex{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       padding: 0;
+    }
+    .section7{
+        padding: 40px 0;
+        height: 135vh;
+    }
+    .section7 .redcontainer{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        place-items: center;
+        align-items: center;
+        grid-row-gap: 30px;
+    }
+  
+    .section8 h1{
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .section8 p{
+        margin-bottom: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .section8{
+        text-align: center;
+        padding: 100px;
+    }
+    .section8 img{
+        width: 700px;
+        margin-left: -35px;
+    }
+    .section9 .rec09{
+        width: 300px;
+    }
+    .section10 .none{
+        display: none;
+    }
+    .section13 .rec14{
+        width: 400px;
+    }
+    
+    .section13 .founder{
+        display: flex;
+        flex-direction: column;
+    }
+    .section13 .mission{
+        margin-left: 60px;
+        padding-right: 20px;
+        width: 350px;
+    }
+    .section13 .logosfounder{
+        display: flex;
+    }
+    
+    .section13{
+        display: flex;
+        justify-content: space-around;
+        padding-left: 50px;
+        padding-top: 100px;
+    }
+    
+    
+   
+    .section13 .founder p{
+      
+        text-align: justify;
+        margin-top: 20px;
+        font-size: 13px;
+       
+    }
+    
+    .section13 .rec15{
+        width: 60px;
+        padding-left: 50px;
+    }
+    .section13 .rec14{
+        width: 300px;
+        height: 300px;
+        object-fit: contain;
+    }
+    .footer{
+        padding: 20px 15px;
+    }
+    .footer .bottom-boxes a{
+        font-size: 12px;
+    }
+    .footer .bottom-boxes .reachout p{
+        font-size: 12px;
+    }
+    .footer .footer1 p{
+        font-size: 12px;
+        margin-bottom: 15px;
+    }
+    .footer .unibeta{
+        width: 200px;
+    }
+
+    /* start of Waitlist */
+
+    .section1waitlist .bg-random{
+        width: 350px;
+        height: 500px;
+    }
+    .section1waitlist .bg-random-inside{
+        width: 250px;
+    }
+    .section1waitlist .formdiv{
+        width: 350px;
+        height:500px;
+        box-shadow: 5px 0px 5px 5px lightgray;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 50px;
+
+    }
+    .section1waitlist .formdiv form{
+        padding: 0;
+    }
+    .section1waitlist .username{
+        width: 270px;
+    }
+    .section1waitlist .password{
+        width: 270px;
+    }
+   
+    /* end of waitlist */
+    
+
+}
+
+@media screen and (max-width: 40em){
+    .navbar__header{
+        width:100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 25px 0px;
+    }
+    .navbar__header nav a{
+        margin-left: 10px;
+        font-size: 10px;
+    }
+    .navbar__header nav .waitlist{
+        font-size: 10px;
+        width: 100px;
+        padding: 10px 0px;
+        margin-left: -10px;
+        border-radius: 4px;
+        margin-top: -20px;
+        margin-right: 20px;
+    }
+    
+    .navbar__header nav .sell{
+        font-size: 10px;
+        width: 100px;
+        padding: 10px 0px;
+        margin-left: -10px;
+        border-radius: 4px;
+        margin-top: -10px;
+    }
+    .navbar__header nav{
+        display: flex;
+        justify-content: center;
+    }
+    .footer .bottom-boxes{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+    }
+    .footer .bottom-boxes a{
+        margin-bottom: 10px;
+        font-size: 13px;
+    }
+    .footer .bottom-boxes .reachout p{
+        margin-bottom: 10px;
+        font-size: 13px;
+    }
+    .footer .bottom-boxes .reachout{
+        margin-top: 30px;
+        
+    }
+    .footer .footer_wrap{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer .footerdown{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding-top: 30px;
+    }
+    .footerdown .footericons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 20px;
+        
+    }
+    .footerdown img{
+        margin-left: 25px;
+        width: 20px;
+    }
+    .footerdown h2{
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .footer .unibeta{
+        width: 150px;
+        padding-left: 30px;
+    }
+    .footer .footer1 {
+        width: 100%;
+        font-size: 12px;
+    }
+    .footer .footer1 p{
+        text-align: center;
+        font-size: 12px;
+        padding-top: 20px;
+    }
+    .footer .footer1 div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 25px;
+    }
+    .navbar__header img{
+        display: none;
+    }
+    .section1 {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 50px 0;
+    }
+   
+    .section1 p{
+        padding: 0px 0px 0px 20%;
+        width: 80%;
+        font-size: 40px;
+    }
+    .section1 h2{
+        padding: 0;
+    }
+
+    .section1 .unibeta{
+        display: none;
+    }
+    .section1 .rec09{
+        width: 300px;
+    }
+    .section1 h2{
+        font-size: 25px;
+        width: 85%;
+        padding: 0px 0px 0px 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-weight: bold;
+
+    }
+    .section1 p{
+        font-size: 10px;
+    }
+
+    /* about page */
+    .section1about{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        padding: 30px 0px;
+    }
+    .section1about .rectangleabout{
+        width: 250px;
+    }
+    .section1about .aboutText{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding:20px 40px 20px 30px;
+        width: 320px;
+    }
+    .section1about .aboutText h1{
+        font-size: 20px;
+        text-align: center;
+        width: 100%;
+    }
+    .section1about .aboutText p{
+        font-size: 10px;
+        text-align: justify;
+
+    }
+    .section1about div{
+        margin-left: 0px;
+    }
+    
+    /* end of about page */
+ 
+    .section2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .section2 .rectangle{
+        width: 300px;
+        margin-bottom: 20px;
+    }
+    .section2 .join h1{
+        font-size: 22px;
+        font-weight: 600;
+        text-align: center;
+        margin-top: 30px;
+        padding: 0px 10px;
+    }
+    .section2 p{
+        font-size: 10px;
+        font-weight: 600;
+       
+    }
+    .section2{
+        padding: 0;
+    }
+    .section2 .elevate{
+        width: 100%;
+        text-align: justify;
+        margin-left: 1px;
+        margin-bottom: 30px;
+        padding: 10px 20px;
+    }
+    .section2 .emailinput{
+        width: 200px;
+        padding: 8px 5px;
+    }
+    .section2 button{
+        width: 100px;
+        padding-top: 50px;
+    }
+    .section2 .ned{
+        font-size: 12px;
+    }
+    .section3 .choose{
+        font-weight: bold;
+        font-size: 25px;
+    }
+ 
+    .section5 .imageflex5 .content{
+        width: 290px;
+        border-radius: 0px 0px 15px 15px;
+        margin-bottom: 40px;
+    }
+
+    /* about page */
+
+    .section2about{
+        text-align: center;
+        color: white;
+        font-weight: 600;
+        background: #0B92DF;
+        padding: 20px;
+        margin-top: 100px;
+    }
+    .section2about img{
+        width: 50px;
+        height: 50px;
+        object-fit: contain;
+        text-align: center;
+        
+    }
+    
+    .section2about h3{
+        margin-bottom: 20px;
+    }
+    
+    .section2imagesabout{
+        display: flex;
+        justify-content: space-around;
+    }
+
+
+
+    /* end of about page */
+
+    /* start of waitlist */
+
+       .section1waitlist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 80px;
+    padding-left: 0;
+    padding-right: 0;
+    box-shadow: 20px 20px 20px rgb(229, 225, 225);
+    padding-bottom: 40px;
+}
+
+.section1waitlist .bg-random{
+    background: url(./assets/rectangle1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 340px;
+    height: 500px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    margin-bottom: 40px;
+}
+.section1waitlist .bg-random-inside{
+    background: url(./assets/rectangle2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 250px;
+    height: 400px;
+    color: white;
+    padding: 40px 40px 0px 20px ;
+    text-align: justify;
+    border-radius: 30px;
+}
+.section1waitlist p{
+    font-size:12px;
+    color: lightgrey;
+    margin-bottom: 115px;
+}
+.section1waitlist .marketdiv{
+    background: url(./assets/rectangle3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 130px;
+    font-size: 12px;
+    padding: 5px 0px 5px 5px;
+    border-radius: 10px;
+}
+
+.section1waitlist .border{
+    border: 1px solid lightgrey;
+    width: 50px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.section1waitlist h3{
+   font-weight: normal;
+   margin-bottom: 20px;
+   font-size: 16.8px;
+}
+.section1waitlist a{
+   text-decoration: underline;
+   color: #fff;
+   font-size: 16px;
+}
+.formdiv .unibeta{
+    width: 250px;
+}
+
+.formdiv{
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: none;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+    margin-left: 20px;
+    
+}
+
+.formdiv .username{
+    width: 300px;
+    padding: 20px 0px 20px 7px;
+    color: grey;
+    border: 1px solid lightgrey;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    outline: none;
+}
+.formdiv .password{
+    width: 300px;
+    padding: 20px 0px 20px 7px;
+    color: grey;
+    border: 1px solid lightgrey;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    outline: none;
+}
+.formdiv .signup{
+    width: 300px;
+    border-radius: 5px;
+    background: #ff0000;
+    color: #fff;
+    padding: 17px 0px;
+    border: none;
+    outline: none;
+    font-weight: 600;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.formdiv .google{
+    width: 300px;
+    border-radius: 5px;
+    color: #333;
+    padding: 17px 0px;
+    border: 1px solid #ff0000;
+    outline: none;
+    font-weight: 600;
+    background: transparent;
+}
+.formdiv .male{
+    margin-right: 30px;
+    margin-left: 5px; 
+
+}
+
+
+.section1waitlist .formdiv form .username, .password{
+    display: block;
+}
+
+.formdiv img{
+    width: 150px;
+    margin-bottom: 50px;
+}
+
+
+    /* end of waitlist */
+
+    .section3{
+        padding: 1px;
+    }
+    .section3 h1{
+        font-size: 15px;
+        font-weight: 600;
+        text-align: center;
+    }
+    .section3 p{
+        font-size: 10px;
+        text-align: center;
+    }
+    .section4{
+     
+        padding: 20px 10px;
+    }
+    .section4 h1{
+        font-size: 18px;
+    }
+    .section4 .three__rows{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        place-items: center;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .section4 .png-container{
+        display: flex;
+        font-size: 8px;
+    }
+  
+    .section4 .png-container img{
+        width: 15px;
+        height: 15px;
+    }
+    .section4 .three__rows p{
+        font-size: 9px;
+        text-align: center;
+    }
+    .section4 .three__rows .effective{
+        font-size: 10px;
+        text-align: center;
+       width: 100%;
+        padding-left: 55px;
+    }
+    
+    .section5{
+       display: grid;
+       grid-template-columns: 1fr;
+       place-items: center;
+       align-items: center;
+       padding: 0;
+       margin: 0;
+       padding-top: 50px;
+    }
+    .section5 h1{
+        margin-bottom: 50px;
+        font-size: 35px;
+        font-weight: bold;
+    }
+    .section5 .imageflex5{
+        display: grid;
+        grid-template-columns: 1fr;
+        place-items: center;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+    .section5 .imageflex5 div{
+        width: 80%;
+        margin-bottom: 30px;
+    }
+    .section5 .imageflex5 img{
+        width: 100%;
+    }
+    
+   
+    .section6 .imageflex{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+    }
+    .section6 .content h1{
+        font-size: 35px;
+        font-weight: bold;
+    }
+    .section6 .content h3{
+        font-size: 22px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-weight: bold;
+    }
+   
+    .section6 .content p{
+        font-size: 14px;
+    }
+    .section6 .imageflex .rec06{
+        width: 330px;
+        height:200px;
+        object-fit: contain;
+    }
+    .section6 .imageflex .rec07{
+        width: 330px;
+        height:430px;
+        object-fit: cover;
+    }
+    .section7 .redcontainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .section7 .red{
+        width: 310px;
+        margin-bottom: 20px;
+        height: 350px;
+    }
+    .section7 h1{
+        font-size: 35px;
+        font-weight: bold;
+        margin-bottom: 30px;
+        padding: 0px 20px;
+    }
+    .section7{
+        background: rgb(23, 134, 178);
+        height: 240vh;
+    }
+    .section8{
+        padding: 1px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 30px;
+        align-items: center;
+    }
+    .section8 img{
+        width: 400px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+    .section8 p{
+        font-size: 12px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .section8 h1{
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .section9 .rec09{
+        display: none;
+    }
+    .section9 .unibeta{
+        width: 200px;
+    }
+    .section9 .inputwaitlist{
+        display: flex;
+    }
+    .section9 button{
+        font-size: 10px;
+        padding: 10px 10px;
+    }
+    .section9 h3{
+        font-size: 30px;
+    }
+    .section9{
+        padding: 50px 0px;
+    }
+    .section10 .none{
+        display: none;
+    }
+    .section10{
+        padding: 0px;
+    }
+    .section10 .materials .content h3{
+        font-size: 20px;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+    .section10 .materials .content p{
+       line-height: 20px;
+       font-size: 12px;
+    }
+    .section10 .rec10{
+        width: 100px;
+        margin-right: 0px;
+        
+    }
+    .section10 .materials{
+        padding: 50px 0px;
+        width: 100%;
+        padding-left: 10px;
+    }
+    .section10 .materials .content{
+        width:100%;
+        margin-top: 0px;
+        font-size: 12px;
+  
+    }
+
+    .section11{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+        padding: 0px;
+    }
+    .section11 img{
+        width: 320px;
+
+        object-fit: cover;
+    }
+    .section11 .rec12{
+        width: 320px;
+        object-fit: contain;
+    }
+    .section11 h1{
+        display: none;
+    }
+    .section12 .rec13{
+        width: 100%;
+        height: 100px;
+        object-fit: contain;
+        border-radius: 20px;
+    }
+    .section13{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 1px;
+    }
+    .section13 p{
+        font-size: 12px;
+    }
+    .section13 .founder{
+        display: flex;
+        flex-direction: column;
+        padding: 1px;
+        width:90%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .section13 .the{
+      width: 50px;
+    }
+    .section13 .next{
+      width: 50px;
+    }
+    .section13 .founders{
+      width: 50px;
+      
+    }
+    .section13 .founder p{
+        font-size: 10px;
+    }
+    .section13 .logosfounder{
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 1px;
+        width: 200px;
+        margin-left: -50px;
+    }
+    .section13 .rec14{
+        width: 340px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .section13 .mission{
+       margin-left: 0px;
+        padding-right: 10px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+=======
 
 
 .navbar__header{
@@ -1364,3 +3173,4 @@
 
 
 
+>>>>>>> 668adf6482e5672eb0d5149bb6b1192079c3ba7f
