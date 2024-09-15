@@ -106,9 +106,6 @@ const home = () => {
             <div className='imageflex5'>
                 <div className='hover-container'>
                     <img src={rec01} alt="" />
-                    <div>
-
-                    </div>
                    
                     <div className='content'>
                         <p className='head'>Students seminars</p>
@@ -118,15 +115,15 @@ const home = () => {
                              and career success.</p>
                     </div>
                 </div>
-                <div>
+                <div className='hover-container'>
                     <img src={rec02} alt="" />
                    
                     <div className='content'>
-                    <p className='head'>School functions</p>
+                        <p className='head'>School functions</p>
                         <p>We organize school functions such as parties and entertainment events, these events foster a sense of community with opportunities to relax and socialize outside the academic environment, it also helps reduce stress, enhancing overall well-being and mental health</p>
                     </div>
                 </div>
-                <div>
+                <div className='hover-container'>
                     <img src={rec03} alt="" />
                     
                     <div className='content'>
@@ -134,7 +131,7 @@ const home = () => {
                         <p>We organize live tutorials for students, we provide real time engagement with instructors, allowing students to ask questions and receive immediate feedback, this fosters a collaborative environment and helps students stay motivated and on track with their studies</p>
                     </div>
                 </div>
-                <div>
+                <div className='hover-container'>
                     <img src={rec04} alt="" />
                    
                     <div className='content'>
@@ -142,7 +139,7 @@ const home = () => {
                         <p> with easy access to a wide range of study materials,  past exam questions and video contents that will significantly help in enhancing your learning and exam preparation process and monitoring your progress on your CA with your data represented with graphic charts that would help you easily identify areas for improvement, </p>
                     </div>
                 </div>
-                <div>
+                <div className='hover-container'>
                     <img src={rec05} alt="" />
                     
                     <div className='content'>
@@ -304,7 +301,7 @@ const home = () => {
                </div>
             </div>
             <div>
-                <img src={rec09} alt="" className='rec09'/>
+                <img src={rec09} alt="" className='fuck'/>
             </div>
         </section>
 

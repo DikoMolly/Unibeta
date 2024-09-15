@@ -8,6 +8,7 @@ import About from "./pages/about"
 import Notfound from "./pages/404"
 import Joinwaitlist from "./pages/joinwaitlist"
 import Caro from "./pages/carousel"
+import Marketplace from "./pages/marketplace"
 
 function App() {
   const [count, setCount] = useState(0)
@@ -21,6 +22,7 @@ function App() {
               <Route path="/caro" element={<Caro/>} />
               <Route path="/about" element={<About/>} />
               <Route path="/join/waitlist" element={<Joinwaitlist/>} />
+              <Route path="/marketplace" element={<Marketplace/>} />
               <Route path="*" element={<Notfound/>} />
           </Routes>
       </BrowserRouter>
