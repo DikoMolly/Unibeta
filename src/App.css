@@ -169,18 +169,20 @@
     padding-right: 200px;
 }
 .section1 p{
-    font-size: 20px;
+    font-size: 22px;
     padding-right: 150px;
+
 
 }
 
 .section2 .ned{
     text-align: center;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
 }
 .section2 .we{
     text-align: center;
+    font-size: 12px;
 }
 .section2{
     display:flex;
@@ -195,31 +197,31 @@
 }   
 
 .section2 h1{
-    font-size: 28px;
+    font-size: 25px;
     margin-bottom: 20px;
     text-align: center;
     font-weight: bold;
 }
 
 
-.section2 .emailinput{
+.section2 #email{
     border: 1px solid red;
-    padding: 9px 10px;
-    width: 350px;
+    padding: 13px 10px;
+    width: 330px;
     outline: none;
     border-radius: 2px;
 }
-.section2 button{
+.section2 div button{
     background-color: red;
     color: white;
-    padding: 9px 14px;
+    padding: 13px 5px;
     border: 1px solid red;
     border-radius:2px;
     margin-left: 5px;
 }
 
 .section2 .join h1{
-    font-size: 50px;
+    font-size: 35px;
     font-weight: bold;
 }
 .section2 .elevate{
@@ -230,7 +232,7 @@
     background: #d6dafe;
    padding-bottom: 10px;
     text-align: center;
-    width: 650px;
+    width: 470px;
     margin-left: 40px;
     border-left: 7px solid blue;
     margin-top: 50px;
@@ -240,7 +242,7 @@
     margin-top: 60px;
 }
 .section2 .join .we{
-    font-size: 25px;
+    font-size: 18px;
 
 }
 
@@ -256,11 +258,11 @@
     padding-top: 40px;
 }
 .section3 h1{
-    font-size:50px;
+    font-size:45px;
     font-weight: bold;
 }
 .section3 p{
-    font-size: 25px;
+    font-size: 22px;
 }
 
 .section4{
@@ -292,10 +294,11 @@
     justify-content: space-around;
 }
 .section5 img{
-    width: 250px;
+    width: 230px;
 }
 .section5{
-    padding: 50px;
+    padding: 50px 0px 100px 0px;
+    
 }
 
 .section5 h1{
@@ -334,6 +337,9 @@
     font-weight: bold;
     text-align: center;
 }
+.section5 .imageflex5 .hover-container{
+    width: ;
+}
 
 .section6 .content{
     text-align: center;
@@ -344,10 +350,10 @@
     font-weight: bold;
 }
 .section6 .content h3{
-    font-size: 37px;
+    font-size: 30px;
 }
 .section6 .content p{
-    font-size: 30px;
+    font-size: 20px;
 }
 
 
@@ -364,40 +370,42 @@
     width: 100%;
 }
 .section6 .imageflex .rec06{
-    width: 68rem;
-    height: 600px;
+    width: 40rem;
+    height: 400px;
 }
 .section6 .imageflex .you1{
-    width: 70rem;
-    height: 600px;
+    width: 50rem;
+    height: 400px;
     border-radius: 30px;
 }
 .section6 .imageflex .you2{
-    width: 70rem;
-    height: 600px;
+    width: 50rem;
+    height: 400px;
     border-radius: 30px;
 }
 .section6 .imageflex .you3{
-    width: 70rem;
-    height: 600px;
+    width: 50rem;
+    height: 400px;
     border-radius: 30px;
 }
 .section6 .imageflex .you4{
-    width: 70rem;
-    height: 600px;
+    width: 50rem;
+    height: 400px;
     border-radius: 30px;
 }
 .section6 .imageflex .rec07{
     width: 22rem;
-    height: 600px;
+    height: 400px;
 }
 
 .section7 .red{
     background: #FF0000;
-    width: 330px;
+    width: 320px;
+    height: 400px;
     border-radius: 20px;
     padding: 25px 15px 100px 15px;
     color: #ffffff;
+    margin-left: 20px;
 }
 .section7 img{
     width: 20px;
@@ -465,7 +473,7 @@
     margin-bottom: 20px;
     padding-left: 300px;
     padding-right: 300px;
-    font-size: 25px;
+    font-size: 15px;
 }
 .section8{
     text-align: center;
@@ -503,7 +511,11 @@
     border-radius: 5px;
 }
 .section9 .unibeta{
-    width: 500px;
+    width: 400px;
+}
+.section9 .fuck{
+    width: 450px;
+    height: 450px;
 }
 
 .section10 .materials{
@@ -513,15 +525,16 @@
 }
 .section10 .materials .content{
     margin-top: 100px;
-    width: 50%;
+    width: 20rem;
     padding: 0px 20px 0px 20px;
+
     
 }
 
 .section10 .materials .content h3{
     margin-bottom: 20px;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 40px;
    
 }
 .section10  p{
@@ -533,8 +546,8 @@
 .section10{
     display: flex;
     justify-content:space-around;
-    padding-right: 30px;
-    padding-left: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
     padding-top: 50px;
 }
 .section10 img{
@@ -586,6 +599,7 @@
 .section12 .rec13{
     width: 100%;
     height: 200px;
+
 }
 
 .section13 .rec14{
@@ -598,7 +612,9 @@
 }
 .section13 .mission{
     margin-left: 60px;
-    padding-right: 200px;
+    padding-right: 10px;
+
+    width: 500px;
 }
 .section13 .logosfounder{
     display: flex;
@@ -610,7 +626,7 @@
 .section13{
     display: flex;
     justify-content: space-around;
-    padding-left: 200px;
+    padding-left: 100px;
     padding-top: 100px;
 }
 
