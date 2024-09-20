@@ -61,7 +61,7 @@ const home = () => {
         <section className='section2 section9'>
             <div>
                <div> <img src={Rectangle} alt="" className='rectangle'/></div>
-                <div>
+                <div className='emaildiv'>
                     <input type="email" name="email" id="email" required className='emailinput' placeholder='Email address'/>
                     <button>Join our waitlist</button>
                 </div>
