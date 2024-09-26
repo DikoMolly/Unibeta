@@ -1062,7 +1062,141 @@
 /* end of vendor page */
 
 /* start of upload page */
+.upload1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 15px;
+}
+.upload1 h1{
+    font-size: 30px;
+    font-weight: bold;
+}
 
+.upload1 span{
+    font-weight: bold;
+    font-size: 30px;
+}
+.upload1 div:nth-child(2){
+    border: 1px solid lightgrey;
+    padding: 5px 5px;
+    border-radius: 30px;
+}
+.upload2{
+    display: flex;
+    padding: 0px 14px;
+}
+
+.upload2 div{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.upload2 .box1{
+    background: purple;
+    height: 2px;
+    width: 25%;
+}
+.upload2 .box2{
+    background: lightgrey;
+    height: 2px;
+    width: 25%;
+}
+.upload2 .box3{
+    background: lightgrey;
+    height: 2px;
+    width: 25%;
+}
+.upload2 .box4{
+    background: lightgrey;
+    height: 2px;
+    width: 25%;
+}
+
+.upload3{
+    padding: 40px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.upload3 .bg{
+    border: 3px dashed grey;
+    border-radius: 20px;
+    width: 60%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+    color: lightgrey;
+}
+.upload3 .bg b{
+    font-weight: bold;
+    color: #333;
+}
+.upload3 .max{
+    color: red;
+    text-align: center;
+}
+
+.upload4 form .formdives{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.upload4 .formdives{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+.upload4 .formdives input{
+    padding: 10px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    color: lightgrey;
+    margin-top: 7px;
+    outline: none;
+   margin-right: 20px;
+    width: 400px;
+}
+.upload4 .formdives label{
+    color: black;
+}
+.upload4 .formdives select{
+    padding: 10px 10px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    color: lightgrey;
+    outline: none;
+    margin-top: 7px;
+}
+.upload4 .desc{
+    padding: 40px 10px;
+    width: 100%;
+}
+.upload4 .desc input{
+    border: 1px solid lightgrey;
+    color: lightgrey;
+    width: 42%;
+    padding: 50px 15px;
+    outline: none;
+    border-radius: 5px;
+}
+.upload4 .desc .lab{
+
+    display: flex;
+    justify-content: flex-end;
+    width: 450px;
+
+}
+.upload4 .desc .textarea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
 
 /* end of upload page */
 
@@ -2459,6 +2593,7 @@
             color: lightgrey;
             margin-top: 7px;
             outline: none;
+            width: 200px;
         }
         .upload4 .formdives label{
             color: black;
@@ -2487,6 +2622,13 @@
             justify-content: center;
             align-items: center;
             width: 100%;
+        }
+        .upload4 .desc .lab{
+
+            display: flex;
+            justify-content: flex-start;
+            width: 450px;
+        
         }
         
 

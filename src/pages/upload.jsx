@@ -44,9 +44,11 @@ const upload = () => {
                         </select>
                     </div>
                 </div>
-                <div className='desc'>
-                    <label htmlFor="">Description</label>
-                    <div>
+                <div className='desc desclaptop'>
+                    <div className='lab'>
+                        <label htmlFor="">Description</label>
+                    </div>
+                    <div className='textarea'>
                         <input type="text" placeholder='Description' className='descs'/>
                     </div>
                    
