@@ -10,6 +10,7 @@ import Joinwaitlist from "./pages/joinwaitlist"
 import Caro from "./pages/carousel"
 import Marketplace from "./pages/marketplace"
 import Vendor from "./pages/vendor"
+import Upload from "./pages/upload"
 
 function App() {
   const [count, setCount] = useState(0)
@@ -25,6 +26,7 @@ function App() {
               <Route path="/join/waitlist" element={<Joinwaitlist/>} />
               <Route path="/marketplace" element={<Marketplace/>} />
               <Route path="/user/vendor" element={<Vendor/>} />
+              <Route path="/user/upload" element={<Upload/>} />
               <Route path="*" element={<Notfound/>} />
           </Routes>
       </BrowserRouter>
