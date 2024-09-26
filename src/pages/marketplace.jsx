@@ -1,6 +1,7 @@
 import React from 'react'
 import unibeta from "../assets/unibetalogo.png";
 import heart from "../assets/heart.png";
+import newrec from "../assets/newrec.png";
 import heartproduct from "../assets/heartproduct.png";
 import heart3 from "../assets/heart3.png";
 import user from "../assets/user.png";
@@ -8,6 +9,7 @@ import searchmarket from "../assets/searchmarket.png";
 import marketrectangle1 from "../assets/marketrectangle.png";
 import preview1 from "../assets/preview.png";
 import Footer from "../components/Footer"
+
 
 const marketplace = () => {
   return (
@@ -77,7 +79,7 @@ const marketplace = () => {
         </div>
 
         <div className='marketsection2'>
-            <div className='container'>
+            <div className='container secondtwo'>
                 <div className='productprice__container'>
                     <div className='price'>
                         <div>#4,500.00</div>
@@ -92,7 +94,7 @@ const marketplace = () => {
                     </div>
                     <div>
                         <h2>HEXAGON STORES</h2>
-                        <p>No 1 students friendly clothing brand</p>
+                        <p>No 2 students friendly clothing brand</p>
                     </div>
                 </div>
             </div>

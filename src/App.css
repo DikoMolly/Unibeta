@@ -337,9 +337,7 @@
     font-weight: bold;
     text-align: center;
 }
-.section5 .imageflex5 .hover-container{
-    width: ;
-}
+
 
 .section6 .content{
     text-align: center;
@@ -896,14 +894,46 @@
     background-size: cover;
     background-position: center;
     border-radius: 20px;
+    position: relative;
 }
 .marketsection2 .container .productprice__container{
     display: flex;
     justify-content: space-between;
     padding: 20px 30px;
+   
 }
+.marketsection2 .container .productpreview__container{
+    display: flex;
+    
+    background:url(./assets/blur-rectangle.png);
+    background-repeat: no-repeat;
+    width:90%;
+    color: white;
+    line-height: 2px;
+    padding: 10px 30px;
+    bottom: 0;
+    position: absolute;
+}
+.marketsection2 .container .productpreview__container h2{
+    font-size: 12px;
+}
+.marketsection2 .container .productprice__container .price{
+    background-color: grey;
+    padding: 7px 15px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+.marketsection2 .container .productprice__container .heartproduct{
+    background-color: grey;
+    padding: 7px 15px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
 .marketsection2 .second{
-    background-image: url(./assets/marketrectangle.png);
+    background-image: url(./assets/perfume.png);
     width: 36%;
     height: 50vh;
     background-repeat: no-repeat;
@@ -911,6 +941,124 @@
     background-position: center;
     border-radius: 20px;
 }
+.marketsection2 .second .productprice__container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+}
+.marketsection2 .second .productprice__container .price{
+    background-color: lightgrey;
+    padding: 7px 15px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+.marketsection2 .second .productprice__container .heartproduct{
+    background-color: lightgrey;
+    padding: 7px 15px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+.marketsection2 .secondtwo{
+    background:url(./assets/newrec.png);
+    width: 62%;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+
+
+/* start of vendorpage */
+
+
+.vendor1{
+    background-color: #938f8f;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px;
+    color: #f2f2f2;
+    font-weight: bold;
+    position: relative;
+   border-radius: 30px;
+}
+.vendor1 .img1{
+    width: 40px;
+    height: 40px;
+    margin-left: 15px;
+}
+.vendor1 div:first-child{
+    display: flex;
+}
+.vendor1 .img2{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 40px;
+    right: 50px;
+    
+}
+.vendor1 h3{
+    font-size: 50px;
+}
+
+.vendor2{
+    display: flex;
+    padding: 50px 0px 50px 40px;
+}
+.vendor2 button{
+    border: 2px solid red;
+    padding: 8px 30px;
+    border-radius: 30px;
+    font-weight: bold;
+    color: #333;
+}
+
+.vendor2 div{
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 30px;
+    border-radius: 30px;
+    margin-left: 20px;
+}
+
+.vendor3{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    padding-top: 50px;
+}
+.vendor3 h2{
+    font-size: 50px;
+    font-weight: bold;
+}
+.vendor3 h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.vendor3 div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.vendor3 div .frame2{
+    width: 150px;
+    height: 200px;
+    margin-top: 50px;
+}
+.vendor3 div .frame1{
+   
+}
+/* end of vendor page */
 
 
 
@@ -2029,10 +2177,20 @@
     .marketsection2 .container{
         background: url(./assets/marketrectangle.png);
         background-size: cover;
-        background-repeat: none;
+        background-repeat: no-repeat;
         background-position: center;
         width: 98%;
         height: 100%;
+        color: white;
+        position: relative;
+    }
+    .marketsection2 .secondtwo{
+        background: url(./assets/newrec.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 98%;
+        height: 98%;
         color: white;
         position: relative;
     }
@@ -2131,6 +2289,89 @@
         font-size: 7px;
        
     }
+
+    /* vendor page start here */
+
+
+    .vendor1{
+        background-color: lightgrey;
+        height: 200px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 15px;
+        color: #f2f2f2;
+        font-weight: bold;
+        position: relative;
+    }
+    .vendor1 .img1{
+        width: 20px;
+        height: 20px;
+    }
+    .vendor1 div:first-child{
+        display: flex;
+    }
+    .vendor1 .img2{
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        bottom: 20px;
+        right: 10px;
+        
+    }
+    .vendor1 h3{
+        font-size: 30px;
+    }
+   .vendor2 {
+        display: flex;
+        margin: 20px 10px;
+        padding: 0;
+   } 
+   .vendor2 button{
+    border: 2px solid red;
+    padding: 8px 20px;
+    border-radius: 30px;
+    font-weight: bold;
+   }
+   .vendor2 img{
+    width: 30px;
+    height: 30px;
+   }
+   .vendor2 div{
+    border: 2px solid red;
+    padding: 4px 15px;
+    border-radius: 30px;
+    margin-left: 10px;
+   }
+
+   .vendor3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+   }
+   .vendor3 div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+   }
+   .vendor3 h1{
+    margin-bottom: 30px;
+   }
+   .vendor3 h2{
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: bold;
+   }
+   .vendor3 div img{
+    display: block;
+   }
+
+    /* ends here vendor */
 
     
 }
