@@ -25,6 +25,7 @@
     color: red;
     font-weight: bold; 
     border-radius: 10px;
+    background-color:white;
 }
 
 .navbar__header .sell{
@@ -206,6 +207,7 @@
 
 .section2 #email{
     border: 1px solid red;
+    background:white;
     padding: 13px 10px;
     width: 330px;
     outline: none;
@@ -214,6 +216,7 @@
 .section2 div button{
     background-color: red;
     color: white;
+    font-weight: bold;
     padding: 13px 5px;
     border: 1px solid red;
     border-radius:2px;
@@ -1550,6 +1553,7 @@
         border-radius: 4px;
         margin-top: -20px;
         margin-right: 20px;
+        background: white;
     }
     
     .navbar__header nav .sell{
@@ -1762,7 +1766,7 @@
     .section2 #email{
         width: 230px;
         padding: 8px 5px;
-        
+        background: white;
         
     }
     .section2 button{

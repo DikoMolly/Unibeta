@@ -11,6 +11,7 @@ import Caro from "./pages/carousel"
 import Marketplace from "./pages/marketplace"
 import Vendor from "./pages/vendor"
 import Upload from "./pages/upload"
+import Audience from "./pages/audience"
 
 function App() {
   const [count, setCount] = useState(0)
@@ -27,6 +28,7 @@ function App() {
               <Route path="/marketplace" element={<Marketplace/>} />
               <Route path="/user/vendor" element={<Vendor/>} />
               <Route path="/user/upload" element={<Upload/>} />
+              <Route path="/user/audience" element={<Audience/>} />
               <Route path="*" element={<Notfound/>} />
           </Routes>
       </BrowserRouter>
