@@ -1927,6 +1927,23 @@
         text-align: center;
         
     }
+    .section1about .aboutText p{
+        font-size: 14px;
+    }
+    .section1about .aboutText{
+        padding: 0px 10px;
+        width: 100%;
+    }
+    .section2about .section2imagesabout{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        place-items: center;
+        align-items: center;
+        
+    }
+    .section2about .section2imagesabout img{
+        width: 70px;
+    }
     
     .section2about h3{
         margin-bottom: 20px;
